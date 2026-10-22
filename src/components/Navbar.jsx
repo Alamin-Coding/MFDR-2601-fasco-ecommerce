@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <ul className="flex items-center justify-center gap-10">
         <li>
-          <Link to="/">Home</Link>
+          <Link className="text-[red]" to="/">Home</Link>
         </li>
         <li>
           <Link to="/login">Login</Link>
