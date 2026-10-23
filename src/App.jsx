@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPAge";
 import Root from "./components/Root";
-
+import FollowUp from "./components/FollowUp";
 const router = createBrowserRouter([
   {
     path: "/",

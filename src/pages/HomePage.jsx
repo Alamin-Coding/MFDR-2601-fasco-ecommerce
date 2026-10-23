@@ -1,7 +1,9 @@
+import FollowUp from "../components/FollowUp";
+
 const HomePage = () => {
   return (
     <>
-      <div>HomePage</div>
+      <FollowUp />
     </>
   );
 };

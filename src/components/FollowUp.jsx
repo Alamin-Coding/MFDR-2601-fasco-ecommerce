@@ -28,7 +28,7 @@ const testimonials = [
 const CARD_W = 864;
 const CARD_H = 400;
 const STAGE_W = 1440; 
-const SIDE_SCALE = 646 / 864; // 0.7477
+const SIDE_SCALE = 646 / 864; 
 const SWIPE_DISTANCE = 50;
 
 const Stars = () => (
