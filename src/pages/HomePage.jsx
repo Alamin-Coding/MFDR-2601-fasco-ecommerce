@@ -1,15 +1,19 @@
+
 import Banner from "../components/Banner";
 import NewArrival from "../components/NewArrival";
 import ProductDetail from "../components/ProductDetail";
 
+import FollowUp from "../components/FollowUp";
+
 const HomePage = () => {
   return (
     <>
-      <section>
+      <div>
         <Banner />
         <NewArrival/>
         <ProductDetail/>
-      </section>
+        <FollowUp />
+      </div>
     </>
   );
 };
