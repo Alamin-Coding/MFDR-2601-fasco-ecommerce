@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPAge";
 import Root from "./components/Root";
+import ProductDetail from "./components/ProductDetail";
 
 const router = createBrowserRouter([
   {
