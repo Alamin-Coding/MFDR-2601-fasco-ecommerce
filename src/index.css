@@ -23,3 +23,7 @@
   --breakpoint-lg: 64rem;
   --breakpoint-xl: 82rem;
 }
+
+@utility common_button_black {
+  @apply py-5 px-11.25 text-white bg-black rounded-[10px] font-poppins font-normal text-[16px] leading-[100%] shadow-none hover:shadow-[0_20px_35px_0_rgba(0,0,0,0.15)] transition-all duration-300 cursor-pointer;
+}
