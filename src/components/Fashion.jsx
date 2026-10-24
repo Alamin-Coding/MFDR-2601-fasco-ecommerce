@@ -61,7 +61,7 @@ import Dottweenty from "../assets/dot20.png"
 const Fashion = () => {
   return (
     <section className='bg-[#FFFFFF] max-w-[1277px] mx-auto'>
-        <h1 className='font-normal text-black text-center text-[42px] font-volkhov pt-[78px]'>Fashion</h1>
+        <h1 className='font-normal text-black text-center text-[42px] font-volkhov pt-[77px]'>Fashion</h1>
         <div className="flex items-center max-w-[130px] justify-between mx-auto pt-5 pb-25">
             <h4 className="font-normal text-black text-[15px] font-jost">Home</h4>
             <img src={Arrow} alt="arrow" className="max-h-[9px] max-w-[9px]" />
@@ -290,7 +290,7 @@ const Fashion = () => {
                         </div>
                  </div>
 
-                 <div>
+                 <div className="pb-20">
                         <img src={Imgnine} alt="img" />
                         <h5 className="font-normal text-[16px] font-volkhov text-black pt-5 pb-1">Dotted Black Dress</h5>
                         <h5 className="font-normal text-[16px] font-jost text-black">$20.00</h5>
