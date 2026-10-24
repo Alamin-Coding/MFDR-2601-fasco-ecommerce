@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
               </li>
               <li className="font-poppins font-normal text-heading text-[16px]">
-                <Link to="/">Deals</Link>
+                <Link to="/products">Shop</Link>
               </li>
               <li className="font-poppins font-normal text-heading text-[16px]">
                 <Link to="/">New Arrivals</Link>

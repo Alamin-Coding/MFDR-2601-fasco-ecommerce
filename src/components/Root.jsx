@@ -1,6 +1,5 @@
 import { Outlet } from "react-router";
 import Navbar from "./Navbar";
-import Fashion from "./Fashion";
 
 const Root = () => {
   return (
@@ -8,8 +7,6 @@ const Root = () => {
       <Navbar />
       <Outlet />
       <footer>Footer</footer>
-      <Fashion/>
-
     </div>
   );
 };
