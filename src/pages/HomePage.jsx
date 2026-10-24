@@ -13,6 +13,7 @@ const HomePage = () => {
         <NewArrival/>
         <ProductDetail/>
         <FollowUp />
+        <div>New line add</div>
       </div>
     </>
   );
