@@ -49,36 +49,39 @@ const ProductDetail = () => {
       </div>
 
     
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 `max-w-7xl` mx-auto px-6 py-12 text-sm">
-  <div className="flex items-center gap-3">
-    <img src={qualityIcon} alt="" className="w-8 h-8 shrink-0" />
-    <div>
-      <p className="font-medium">High Quality</p>
-      <p className="text-gray-400 text-xs">crafted from top materials</p>
-    </div>
-  </div>
-  <div className="flex items-center gap-3">
-    <img src={warrantyIcon} alt="" className="w-8 h-8 shrink-0" />
-    <div>
-      <p className="font-medium">Warranty Protection</p>
-      <p className="text-gray-400 text-xs">Over 2 years</p>
-    </div>
-  </div>
-  <div className="flex items-center gap-3">
-    <img src={shippingIcon} alt="" className="w-8 h-8 shrink-0" />
-    <div>
-      <p className="font-medium">Free Shipping</p>
-      <p className="text-gray-400 text-xs">Order over 150 $</p>
-    </div>
-  </div>
-  <div className="flex items-center gap-3">
-    <img src={supportIcon} alt="" className="w-8 h-8 shrink-0" />
-    <div>
-      <p className="font-medium">24 / 7 Support</p>
-      <p className="text-gray-400 text-xs">Dedicated support</p>
-    </div>
-  </div>
-</div>
+      <div className='container'>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 `max-w-7xl` mx-auto px-6 py-12 text-sm">
+          <div className="flex items-center gap-3">
+            <img src={qualityIcon} alt="" className="w-8 h-8 shrink-0" />
+            <div>
+              <p className="font-medium">High Quality</p>
+              <p className="text-gray-400 text-xs">crafted from top materials</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <img src={warrantyIcon} alt="" className="w-8 h-8 shrink-0" />
+            <div>
+              <p className="font-medium">Warranty Protection</p>
+              <p className="text-gray-400 text-xs">Over 2 years</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <img src={shippingIcon} alt="" className="w-8 h-8 shrink-0" />
+            <div>
+              <p className="font-medium">Free Shipping</p>
+              <p className="text-gray-400 text-xs">Order over 150 $</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+            <img src={supportIcon} alt="" className="w-8 h-8 shrink-0" />
+            <div>
+              <p className="font-medium">24 / 7 Support</p>
+              <p className="text-gray-400 text-xs">Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
   )
 }

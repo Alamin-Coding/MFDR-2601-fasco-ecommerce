@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import NewArrival from "../components/NewArrival";
+import ProductDetail from "../components/ProductDetail";
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <section>
         <Banner />
         <NewArrival/>
+        <ProductDetail/>
       </section>
     </>
   );
