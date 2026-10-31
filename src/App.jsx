@@ -6,13 +6,14 @@ import Root from "./components/Root";
 import ProductDetail from "./components/ProductDetail";
 import FollowUp from "./components/FollowUp";
 import ShopPage from "./pages/ShopPage";
+import ProductDetailsPage from "./pages/ProductDetailsPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
       {
-        index:true,
+        index: true,
         element: <HomePage />,
       },
       {
@@ -20,14 +21,18 @@ const router = createBrowserRouter([
         element: <ShopPage />,
       },
       {
-        path: "/login",
-        element: <LoginPage />,
-      },
-      {
-        path: "/signup",
-        element: <SignupPage />,
+        path: "/products/:id",
+        element: <ProductDetailsPage />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "/signup",
+    element: <SignupPage />,
   },
 ]);
 
